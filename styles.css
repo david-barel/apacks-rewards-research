@@ -1,0 +1,7 @@
+
+:root{--navy:#0d2b3e;--green:#6f8f3d;--light:#f5f5ef}
+body{background:#fbfbf8}.navbar{background-color:var(--navy)!important}
+.navbar-title,.navbar-nav .nav-link{color:white!important}
+h1,h2,h3{color:var(--navy);font-weight:700}h1.title{font-size:2.8rem}
+blockquote{border-left:4px solid var(--green);background:var(--light);padding:.8rem 1.2rem}
+.callout{border-radius:12px}.figure img{border-radius:14px}table{font-size:.95rem}

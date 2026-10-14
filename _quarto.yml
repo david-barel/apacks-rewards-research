@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "APacks Rewards Research"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Case Study
+  page-footer:
+    left: "Fictional portfolio case study · Synthetic data"
+    right: "R + Quarto"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    code-tools: true
+    smooth-scroll: true
+    theme: cosmo
+    css: styles.css

@@ -1,0 +1,8 @@
+library(tidyverse)
+library(janitor)
+library(broom)
+library(gt)
+library(scales)
+theme_set(theme_minimal(base_size = 12))
+options(scipen = 999)
+partner_levels <- c("DineLocal","StreamPlus","MoveNow","FitLife","FoodDrop")
